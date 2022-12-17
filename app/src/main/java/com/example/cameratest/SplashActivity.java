@@ -50,7 +50,7 @@ public class SplashActivity extends AppCompatActivity {
                                 "After opening the application, hold the banknote in your non-dominant hand while your mobile phone is in your dominant hand. Make sure that the banknote is not folded." +
                                 "Next step is to place your phone on your heart or on your chest level. After that, place the hand holding the banknote in front of your phone. Count 1 to 3, while counting, slowly move the hand with the banknote forward. Once you reach 3, stop moving. " +
                                 "Then, tap any part of the screen to capture and wait for the result which is delivered through a voiceover. Make sure to capture the banknote multiple times. " +
-                                "To switch language, tap and hold any part of the screen. You can only switch between English and Filipino. That is all, don't forget to allow the permission, the application needs the camera to perform. Thank you and ";
+                                "To switch language, tap and hold any part of the screen. You can only switch between English and Filipino. That is all, don't forget to allow the permission, the application needs the camera to perform. Thank you";
             speakResult(instruction);
             saveState("false");
             delay = 52500;
