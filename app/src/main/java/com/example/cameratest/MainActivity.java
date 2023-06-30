@@ -291,7 +291,7 @@ public class MainActivity extends AppCompatActivity{
                         }
                     });
                 }
-            }, 1750);
+            }, 2000);
             return super.onSingleTapConfirmed(e);
         }
 

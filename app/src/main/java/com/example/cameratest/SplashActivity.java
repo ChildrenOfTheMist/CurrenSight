@@ -15,6 +15,7 @@ import android.widget.Toast;
 public class SplashActivity extends AppCompatActivity {
     TextToSpeech textToSpeech;
     MediaPlayer filipino;
+    TextView txt_instruction;
 
     public static final String SHARED_PREFS = "sharedPrefs";
     public static final String LANG = "lang";
@@ -52,6 +53,8 @@ public class SplashActivity extends AppCompatActivity {
                                 "Then, tap any part of the screen to capture and wait for the result which is delivered through a voiceover. Make sure to capture the banknote multiple times. " +
                                 "To switch language, tap and hold any part of the screen. You can only switch between English and Filipino. That is all, don't forget to allow the permission, the application needs the camera to perform. Thank you";
             speakResult(instruction);
+            txt_instruction = findViewById(R.id.instruction);
+            txt_instruction.setText("Instructions are being relayed.\nListen carefully!");
             saveState("false");
             delay = 52500;
         }
